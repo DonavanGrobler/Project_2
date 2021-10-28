@@ -31,7 +31,7 @@ body
     background-color:#A6ACAF;  
     font-family: 'fantasy';  
 }  
- .login{  
+ .signup{  
         width: 382px;  
         overflow: hidden;  
         margin: auto;  
@@ -62,6 +62,15 @@ label{
 
 /* USERNAME */
 #Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    color: #AEB6BF;
+}  
+
+#Email{  
     width: 300px;  
     height: 30px;  
     border: none;  
