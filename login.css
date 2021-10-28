@@ -1,0 +1,96 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#A6ACAF;  
+    font-family: 'fantasy';  
+}  
+ .login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #1B2631;  
+        border-radius: 15px ;    
+}  
+
+h1 {
+    font-size: 4rem;
+    text-align: center;  
+    color: #1B2631;  
+    padding: 20px;  
+}
+
+h2{  
+    font-size: 2rem;
+    text-align: center;  
+    color: #1B2631;  
+    padding: 20px;  
+}  
+
+label{  
+    color: #AEB6BF;  
+    font-size: 17px;  
+}  
+
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+    color: #AEB6BF;
+}  
+
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+.btn {
+    background-color: #AEB6BF;
+    border: none;
+    color: #1B2631;
+    width: 300px;  
+    height: 30px; 
+    border-radius: 17px;  
+    padding: 20px;
+    display: inline-block;
+    font-size: 25px;
+  }
+.btn {border-radius: 6px;}
+  
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #AEB6BF(86, 185, 235, 0.5);
+    transform: translateY(-0.4rem);
+    transition: transform 150ms;
+  }
+  
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+/* .btn{  
+    font-size: 1.4rem;
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: #1B2631;
+}   */
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    font-size: 1rem;
+    background-color: #AEB6BF;  
+}  
