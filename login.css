@@ -28,9 +28,13 @@ body
 {  
     margin: 0;  
     padding: 0;  
-    background-color:#A6ACAF;  
-    font-family: 'fantasy';  
-}  
+    background-color:#A6ACAF; 
+    background-image: url("https://lh3.googleusercontent.com/proxy/0pPkbY914QKzRjiQJPYP5X09FyN5acUst99_20hyOJSIGLHBPdSIZ7m25GkPWWErW7YYEvXzrPNJw7_Kljc9JZfUPsozlQKb1beNfvEHL6FBxYOWybnQ7FeDI2R2A1t-aWMr7L5N8waJQ55aWonzGDtTFoYjya6roKP6c8FHANga-g9KkroTT2uvebkiqfZEIg=s0-d");
+    background-size: cover;
+    box-sizing: border-box; 
+    font-family: fantasy;  
+}
+
  .login{  
         width: 382px;  
         overflow: hidden;  
@@ -58,6 +62,7 @@ h2{
 label{  
     color: #AEB6BF;  
     font-size: 23px;  
+    font-family: serif;
 }  
 
 /* USERNAME */
