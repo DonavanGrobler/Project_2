@@ -28,9 +28,7 @@ body
 {  
     margin: 0;  
     padding: 0;  
-    background-color:#A6ACAF; 
-    background-image: url("https://lh3.googleusercontent.com/proxy/0pPkbY914QKzRjiQJPYP5X09FyN5acUst99_20hyOJSIGLHBPdSIZ7m25GkPWWErW7YYEvXzrPNJw7_Kljc9JZfUPsozlQKb1beNfvEHL6FBxYOWybnQ7FeDI2R2A1t-aWMr7L5N8waJQ55aWonzGDtTFoYjya6roKP6c8FHANga-g9KkroTT2uvebkiqfZEIg=s0-d");
-    background-size: cover;
+    background-color:#2B424D;
     box-sizing: border-box; 
     font-family: fantasy;  
 }
@@ -48,21 +46,21 @@ body
 h1 {
     font-size: 4rem;
     text-align: center;  
-    color: #1B2631;  
+    color: #CEE0E9;
     padding: 20px;  
 }
 
 h2{  
     font-size: 2rem;
     text-align: center;  
-    color: #1B2631;  
+    color: #CEE0E9;    
     padding: 20px;  
 }  
 
 label{  
-    color: #AEB6BF;  
-    font-size: 23px;  
-    font-family: serif;
+  color: #CEE0E9;
+  font-size: 23px;  
+  font-family: serif;
 }  
 
 /* USERNAME */
@@ -72,7 +70,7 @@ label{
     border: none;  
     border-radius: 3px;  
     padding-left: 8px;  
-    color: #AEB6BF;
+    color: #CEE0E9;
 }  
 
 /* PASSWORD */
@@ -86,7 +84,7 @@ label{
 
 /* SIGN IN BUTTON */
 .btn {
-    background-color: #AEB6BF;
+    background-color: #CEE0E9;
     border: none;
     color: #1B2631;
     border-radius: 17px;  
@@ -98,7 +96,7 @@ label{
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #AEB6BF(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 #CEE0E9(86, 185, 235, 0.5);
     transform: translateY(-0.4rem);
     transition: transform 150ms;
   }
@@ -110,6 +108,6 @@ label{
   }
 
 span{  
-    color: #AEB6BF;  
+    color: #CEE0E9;  
     font-size: 20px;  
 }  

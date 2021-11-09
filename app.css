@@ -1,8 +1,6 @@
 :root {
-    background-color: #A6ACAF;
-    background-image: url("https://lh3.googleusercontent.com/proxy/0pPkbY914QKzRjiQJPYP5X09FyN5acUst99_20hyOJSIGLHBPdSIZ7m25GkPWWErW7YYEvXzrPNJw7_Kljc9JZfUPsozlQKb1beNfvEHL6FBxYOWybnQ7FeDI2R2A1t-aWMr7L5N8waJQ55aWonzGDtTFoYjya6roKP6c8FHANga-g9KkroTT2uvebkiqfZEIg=s0-d");
-    background-size: cover;
-    font-size: 62.5%;
+  background-color:#2B424D;
+  font-size: 62.5%;
 }
 
 *{
@@ -10,7 +8,7 @@
     font-family: fantasy;
     margin: 0;
     padding: 0;
-    color: #1B2631;
+    color: #CEE0E9;
 }
 
 h1,
@@ -22,7 +20,7 @@ h4 {
 
 h1 {
     font-size: 9.6rem;
-    color: #1B2631;
+    color: #CEE0E9;
     margin-bottom: 5rem;
 }
 
@@ -84,7 +82,7 @@ h3 {
   .btn {
     background-color: #1B2631;
     border: none;
-    color: #AEB6BF;
+    color: #CEE0E9;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -97,7 +95,7 @@ h3 {
   
   .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #AEB6BF(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 #CEE0E9(86, 185, 235, 0.5);
     transform: translateY(-0.4rem);
     transition: transform 150ms;
   }
