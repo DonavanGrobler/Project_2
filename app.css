@@ -3,6 +3,10 @@
   font-size: 62.5%;
 }
 
+body {
+  background-color:#2B424D;
+  font-size: 62.5%;
+}
 *{
     box-sizing: border-box;
     font-family: fantasy;
