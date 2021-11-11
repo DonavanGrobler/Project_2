@@ -8,6 +8,22 @@
     <link rel="stylesheet" href="view.css"/>
 </head>
 <body>
-    
+    <script type="text/javascript" src="https://product-gallery.cloudinary.com/all.js"></script>
+
+<div class="wrap" id="wrap"></div>
+
+<script>
+  cloudinary.galleryWidget({
+    container: '#wrap',
+    cloudName: 'dy5952s5a',
+    mediaAssets: [{
+      tag: "wallpaper"
+    }, {
+      tag: "wallpaper",
+      mediaType: "video"
+    }],
+  }).render();
+
+</script>
 </body>
 </html>
