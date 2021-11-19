@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="edit.css">
 </head>
 <body>
-    
+    <script src="https://media-editor.cloudinary.com/all.js" type="text/javascript"></script>
+<script>
+const myEditor = cloudinary.mediaEditor();
+myEditor.update({
+  publicIds: ["sample"],
+  cloudName: "dy5952s5a"
+});
+myEditor.show();
+myEditor.on("export",function(data){
+  console.log(data);
+})
+</script>
 </body>
 </html>
