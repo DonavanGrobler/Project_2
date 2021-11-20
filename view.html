@@ -5,25 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View</title>
-    <link rel="stylesheet" href="view.css"/>
+    <link rel="stylesheet" href="album.css"/>
 </head>
 <body>
-    <script type="text/javascript" src="https://product-gallery.cloudinary.com/all.js"></script>
+  <div class="container">
+    <div id="homepage" class="flex-center flex-column">
+  <h1>PHOTOBOMB.COM</h1>
+  <a class="btn" href="/anime.html">Anime</a>
+  <a class="btn" href="/university.html">University</a>
+  <a class="btn" href="/wallpapers.html">Wallpapers</a>
+</div>
+</div>
 
-<div class="wrap" id="wrap"></div>
 
-<script>
-  cloudinary.galleryWidget({
-    container: '#wrap',
-    cloudName: 'dy5952s5a',
-    mediaAssets: [{
-      tag: "photo"
-    }, {
-      tag: "photo",
-      mediaType: "video"
-    }],
-  }).render();
-
-</script>
 </body>
 </html>
