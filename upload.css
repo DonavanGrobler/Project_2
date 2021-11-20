@@ -1,5 +1,8 @@
 :root {
-    background-color:#2B424D;
+  background-image: url("wallp.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
     font-size: 62.5%;
   }
   
