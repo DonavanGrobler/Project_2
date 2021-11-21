@@ -13,7 +13,24 @@
 const myEditor = cloudinary.mediaEditor();
 myEditor.update({
   publicIds: ["wwe0imvcranzukhbx8gp"],
-  cloudName: "dy5952s5a"
+  cloudName: "dy5952s5a",
+  image: {
+    steps: ["export"],
+    export: {  
+      "formats": [
+        "auto",
+        "png",
+        "webp"
+      ],
+      "quality": [
+        "auto",
+        55,
+        75,
+        "low"
+      ],
+
+    }
+  }  
 });
 myEditor.show();
 myEditor.on("export",function(data){
