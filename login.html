@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Album - Login</title>
     <link rel="stylesheet" href="login.css"/>
+    
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,7 @@
             <br><br>    
             </b>    
             </label>    
-            <input type="text" name="Uname" id="Uname" placeholder="Username">    
+            <input type="text" name="Uname" id="Uname" placeholder="Username"pattern="^\d*[a-zA-Z][a-zA-Z0-9]*$" required>  
             <br><br>    
             <label><b>Password
             <br><br>   
@@ -29,9 +30,24 @@
             <input type="checkbox" id="check">    
             <span>Remember me</span>  
 
+            
+            
         </form>
 
     </div> 
     <div style="height: 8rem;"> </div>   
+    <script>
+       const isEmpty = str => !str.trim().length;  
+       document.getElementById("Uname").addEventListener("input", function() {   
+           if( isEmpty(this.value) ) {     
+            //    console.log( "NAME is invalid (Empty)" 
+            //    )   
+            } 
+               else { 
+                    // console.log( "NAME value is: ${this.value}" );   
+                    alert("Username & Password fields cannot be empty")
+                } 
+            });
+    </script>
 </body>
 </html>
